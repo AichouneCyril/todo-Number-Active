@@ -4,25 +4,45 @@ Todo-Number
 Cette application est une todo-list simple qui vous permet de gérer une liste de nombres.
 
 Objectif
+
 L'objectif de cette application est de vous permettre d'ajouter, de supprimer et de visualiser une liste de nombres en utilisant une API backend.
 
 Dépendances
+
 Pour utiliser cette application, vous aurez besoin de:
 
 Coté Frontend :
-React
-UUID
-Axios
-bootstrap
+
+
+React;
+
+UUID;
+
+Axios;
+
+bootstrap;
+
 Coté backend :
+
+
 dotenv
+
 cors
+
 express
+
 mysql2
+
 nodemon
+
+
 Coté test : (optionnel, non utilisé dans cette application)
+
 cypress
+
 Méthodes
+
+
 Pour ajouter un nombre à votre liste, entrez le nombre dans le champ de saisie et cliquez sur "Envoyer". Le nombre sera alors envoyé à l'API via la méthode postNumber dans api.js.
 
 Pour supprimer un nombre de votre liste, cliquez sur le bouton "Supprimer" à côté du nombre souhaité. Cela déclenchera la méthode deleteNumber dans api.js, qui supprimera le nombre de la base de données.
